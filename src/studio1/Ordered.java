@@ -15,7 +15,13 @@ public class Ordered {
 		int y = in.nextInt();
 		System.out.println("Value for z?");
 		int z = in.nextInt();
+		boolean isOrdered = true;
+		boolean isOrdered1 = (x > y);
+		boolean isOrdered2 = (y > z);
+		boolean isOrdered3 = (isOrdered1 == isOrdered2);
+		
 
+		System.out.println(isOrdered3);
 	}
 
 }
